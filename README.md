@@ -84,7 +84,7 @@ Ao clicar em qualquer produto ele será redirecionado para uma pagina contendo t
    </tr>
 </table>
 
-<p>HISTORIA 1 - CRIAÇÃO DA PAGINA DETALHE</p>
+<p>HISTORIA 2 - CRIAÇÃO DA PAGINA DETALHE</p>
 
  <table border="1">
    <tr>
@@ -99,7 +99,7 @@ Ao clicar em qualquer produto ele será redirecionado para uma pagina contendo t
    </tr>
 </table>
 
-<p>HISTORIA 1 - CRIAÇÃO DA PAGINA CONTATO</p>
+<p>HISTORIA 3 - CRIAÇÃO DA PAGINA CONTATO</p>
 
  <table border="1">
    <tr>
