@@ -1,0 +1,63 @@
+/** {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%
+}
+
+.nav-link li { 
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.image-center { 
+    height: 400px;
+    width: 300px;
+}
+
+*/
+.navega {
+    margin-top: 40px;
+}
+
+.produtos {
+    margin-top: 65px;
+}
+.logo-text {
+    color: #8B7B8B;
+
+}
+body {
+    font-family:  'Cormorant Garamond', serif;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.nav-link {
+    color: #8B7B8B;
+}
+

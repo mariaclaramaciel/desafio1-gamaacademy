@@ -1,89 +1,173 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Universo Mistico</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-</head>
-<body>
-    <header>
-        <h1>Universo Mistico</h1>
-    </header>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Universo Mistico</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" type="text/css" >
+    </head>
+    <body>
+    <div class="container">
+
+     <!-- Barra de Navegação -->
+            <div class="row navega">
+                <nav class="navbar navbar-light ">
+                    <div class="container-fluid">
+                    <h1 class="logo-text">Universo Mistico</h1>
+
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" >PRODUTOS</a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">CRISTAIS</a></li>
+                            <li><a class="dropdown-item" href="#">VELAS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">CONTATO</a>
+                        </li>
+                    </ul>
+                    </div>
+                </nav>
+            </div>
+
+     <!--Banner-->
+
+     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="img/mao-segurando.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/Crystal Healing, meditation _ Beauty Stone Co.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/Las mejores 700+ fotos de Incense · Descarga totalmente gratuita · Fotos de archivo de Pexels.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+     <!-- CARD DOS PRODUTOS -->
+    <div class="row produtos">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <img src="img/geodo-bruta.jpeg" class="img-fluid" alt="geodo">
+            <h4 >Geodo Cristal</h4>
+            <h5 >R$ 45,00</h5>
+            <p > É um cristal que têm o poder de harmonizar as forças positivas e negativas que mantém o equilíbrio do universo.</p>
+            
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <img src="img/vela-sonho.jpeg" class="img-fluid" alt="pedra bruta">
+            <h4 >Vela Dreem</h4>
+            <h5 >R$ 55,00</h5>
+            <p>É um cristal que têm o poder de harmonizar as forças positivas e negativas que mantém o equilíbrio do universo.</p>
+            
+        </div>
+
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <img src="img/ametista-bruta.jpeg" class="img-fluid" alt="pedra bruta">
+            <h4 >Ametista</h4>
+            <h5 >R$ 45,00</h5>
+            <p >É um cristal que têm o poder de harmonizar as forças positivas e negativas que mantém o equilíbrio do universo.</p>
+            
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <img src="img/vela-adun.jpeg" class="img-fluid" alt="pedra bruta">
+            <h4 >Vela Abundancia</h4>
+            <h5 >R$ 55,00</h5>
+            <p>É um cristal que têm o poder de harmonizar as forças positivas e negativas que mantém o equilíbrio do universo.</p>
+            
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <img src="img/quartzo-hrosa.jpeg" class="img-fluid" alt="pedra bruta">
+            <h4 >Celestite Bruta</h4>
+            <h5 >R$ 55,00</h5>
+            <p>É um cristal que têm o poder de harmonizar as forças positivas e negativas que mantém o equilíbrio do universo.</p>
+            
+        </div>
+
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <img src="img/alto-deserto.jpeg" class="img-fluid" alt="pedra bruta">
+            <h4 >Vela High</h4>
+            <h5 >R$ 55,00</h5>
+            <p>É um cristal que têm o poder de harmonizar as forças positivas e negativas que mantém o equilíbrio do universo.</p>
+            
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <img src="img/celestite-bruta.jpeg" class="img-fluid" alt="pedra bruta">
+            <h4 >Ametista Rosa</h4>
+            <h5 >R$ 55,00</h5>
+            <p>É um cristal que têm o poder de harmonizar as forças positivas e negativas que mantém o equilíbrio do universo.</p>
+            
+        </div>
+
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <img src="img/vela-int.jpeg" class="img-fluid" alt="pedra bruta">
+            <h4 >Vela Intenção</h4>
+            <h5 >R$ 55,00</h5>
+            <p>É um cristal que têm o poder de harmonizar as forças positivas e negativas que mantém o equilíbrio do universo.</p>
+            
+        </div>
+
+
+
+
+
+    </div>
+
+        
+    </div>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </body>
+    </html>
+
+
+
+
+<!--
+<header class="cabecalho">
+    <h1>
+        <a href="index.html" title="universo mistico">Universo Mistico</a>
+    </h1>
 
     <nav class="menu">
-        <ul>
+        <ul class="nav-link">
             <li><a href="#">Loja</a></li>
-            <li><a href="#">Cristais</a>
+            <li><a href="#">Produtoss</a>
                 <ul>
-                    <li><a href="#">Rolado</li>
-                    <li><a href="#">Bruto</li>
-                </ul>
-            </li>
-            <li><a href="#">Velas</a>
-                <ul>
-                    <li><a href="#">Palito</li>
-                    <li><a href="#">Copo</li>
+                    <li>cristais</li>
+                    <li>velas</li>
                 </ul>
             </li>
             <li><a href="#">Quem Somos</a></li>
         </ul>
-    </nav>
+    </nav>   
+</header>
 
-    <div id="text-center">
-        <h2>LOJA DE PRODUTOS MISTICOS</h2>
-    </div>
-
-    <section class="image-center">
-        <img src="img/foto-destaque1.jpeg" alt="imagens em destaque">
-    </section>
-
-    <div class="icones">
-        <div class="frete">
-            <img src="img/carro.png" alt="icone frete gratis">
-            <p>Frete Gratis</p>
-        </div>
-        <div class="pagamento">
-            <img src="img/cartao.png" alt="icone pagamento">
-            <p>Até 12x sem juros</p>
-        </div>
-        <div class="envio">
-            <img src="img/mapa.png" alt="icone envio">
-            <p>Enviamos para todo Brasil</p>
-        </div>
-    </div>
-
-    <div class="destaque">
-        <p>ITENS EM DESTAQUE</p>
-        <div>
-            <div>
-                <a href="#" alt="#">
-                    <img src="img/geodo-bruta.jpeg" alt="Geodo">
-                </a>
-                <p>Geodo Drusa</p>
-                <p>R$ 45,00</p>
-            </div>
-            <div>
-                <a href="#" alt="">
-                    <img src="img/vela-palito-branca.jpeg" alt="vela branca">
-                </a>
-                <p>Vela Palito Branca</p>
-                <p>R$ 35,00</p>
-            </div>
-            <div>
-                <a href="#" alt="link">
-                    <img src="img/rolada-howlita.jpg" alt="pedra howlita">
-                </a>
-                <p>Howlita Rolada</p>
-                <p>R$ 25,00</p>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-
-    </footer>
-
-</body>
-</html>
+<div >
+    <img class="image-center" src="img/foto-destaque1.jpeg" alt="imagens em destaque">
+</div>
+-->
