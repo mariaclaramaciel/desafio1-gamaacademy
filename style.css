@@ -1,42 +1,8 @@
-/** {
-    box-sizing: border-box; 
-    margin: 0;
-    padding: 0;
-}
-
-li, a {
-    font-weight: 500;
-    font-size: 16px;
-    color: black;
-    text-decoration: none;
-    list-style: none;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%
-}
-
-.nav-link li { 
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.image-center { 
-    height: 400px;
-    width: 300px;
-}
-
-*/
-.navega {
-    margin-top: 40px;
-}
 
 .produtos {
-    margin-top: 65px;
+    margin-top: 30px;
 }
+
 .logo-text {
     color: #8B7B8B;
 
@@ -61,3 +27,31 @@ h5 {
     color: #8B7B8B;
 }
 
+.carousel {
+    margin-top: 135px;
+
+}
+
+.text-destaque {
+    margin-top: 80px;
+    font-size: 22px;
+    color:  #8B7B8B;
+}
+
+.rodape {
+    margin-top: 55px;
+    margin-bottom: 100px;
+    padding-top:10px;
+    background-color: #8B7B8B;
+}
+
+
+
+.botao-comprar {
+    margin-bottom: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
