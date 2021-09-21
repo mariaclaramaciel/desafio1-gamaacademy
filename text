@@ -1,0 +1,23 @@
+<div class="">
+    <img src="/img/mapa.png" class="img-fluid" alt="">
+    <h4>FRETE GRÁTIS</h4>
+    <h5>Confira Condições</h5>
+  </div>
+
+  <div class="">
+      <img src="/img/mapa.png" class="img-fluid" alt="">
+      <h4>ENVIAMOS</h4>
+      <h5>para todo o Brasil</h5>
+    </div>
+
+    <div class="">
+      <img src="/img/mapa.png" class="img-fluid" alt="">
+      <h4>ATÉ 12X SEM JUROS</h4>
+      <h5>10% Off no Boleto</h5>
+    </div>
+
+    <div class="">
+      <img src="/img/mapa.png" class="img-fluid" alt="">
+      <h4>100% SEGURO</h4>
+      <h5>Certificado SSL</h5>
+    </div>
