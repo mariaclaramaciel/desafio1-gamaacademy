@@ -21,3 +21,58 @@
       <h4>100% SEGURO</h4>
       <h5>Certificado SSL</h5>
     </div>
+
+
+
+
+<!-- Selecao de produto -->
+<section class="py-5">
+  <div class="container px-4 px-lg-5 my-5">
+      <div class="row gx-4 gx-lg-5 align-items-center">
+          <div class="col-md-6">
+            <div id="carousel-produto" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/celestite-bruta.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/vela-adun.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/vela-adun.jpeg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          
+            </div>
+          </div>
+
+
+<!--Area de descrição-->
+          <div class="col-md-6">
+              <div class="small mb-1">SKU: BST-498</div>
+              <h1 class="display-5 fw-bolder">Velas e Cristais</h1>
+              <div class="fs-5 mb-5">
+                  <span class="text-decoration-line-through">$45.00</span>
+                  <span>$40.00</span>
+              </div>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?</p>
+              <div class="d-flex">
+                  <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
+                  <button class="btn btn-outline-dark flex-shrink-0" type="button">
+                      <i class="bi-cart-fill me-1"></i>
+                      Addicione ao carinho 
+                  </button>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
